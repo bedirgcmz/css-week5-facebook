@@ -1,0 +1,39 @@
+#facebook-container {
+  background-color: lightcyan;
+  display: flex;
+}
+
+#left-container {
+  margin: 100px 0 100px 100px;
+  width: 70%;
+}
+
+#right-container {
+  margin: 100px;
+  padding: 20px;
+  border: 1px solid white;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#facebook-container h1 {
+  font-size: 2.2rem;
+  font-family: sans-serif;
+  color: #1778f2;
+  letter-spacing: -2px;
+  margin-bottom: 0px;
+}
+
+#left-container > p {
+  width: 85%;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #504747;
+  margin-top: 5px;
+}
+
+.input {
+  margin-bottom: 20px;
+}
