@@ -1,21 +1,29 @@
+body {
+  width: 60%;
+  margin: auto;
+}
 #facebook-container {
-  background-color: lightcyan;
+  background-color: #eef4f4;
   display: flex;
 }
 
 #left-container {
   margin: 100px 0 100px 100px;
-  width: 70%;
+  width: 65%;
 }
 
 #right-container {
-  margin: 100px;
+  margin: 100px 100px 20px 0px;
   padding: 20px;
   border: 1px solid white;
-  width: 30%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+  box-sizing: border-box;
 }
 
 #facebook-container h1 {
@@ -27,7 +35,7 @@
 }
 
 #left-container > p {
-  width: 85%;
+  width: 95%;
   font-family: sans-serif;
   font-weight: 600;
   color: #504747;
@@ -35,5 +43,83 @@
 }
 
 .input {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid lightblue;
+}
+
+.input ~ p {
+  text-align: center;
+  font-size: 11px;
+  color: #1778f2;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: -0.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  width: 90%;
+  margin: 20px auto 0px auto;
+}
+
+.button-1,
+.button-2 {
+  padding: 10px 0px;
+}
+
+.button-1 {
+  background-color: #1778f2;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.button-2 {
+  background-color: #36ca3c;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border: 0px;
+  border-radius: 5px;
+  width: 150px;
+  margin: auto;
+  padding: 8px;
+}
+
+.button-1 ~ hr {
+  width: 100%;
+  opacity: 0.5;
+}
+
+#right-container ~ p {
+  text-align: center;
+  width: 90%;
+  font-size: 12px;
+}
+
+footer p {
+  opacity: 0.5;
+  display: inline;
+}
+
+footer hr {
+  opacity: 0.5;
+}
+
+footer span {
+  padding: 0px 10px;
+  border: 1px solid #0000004d;
+  font-size: 10px;
+  opacity: 1;
+  font-weight: bold;
+  font-family: fantasy;
+  border-radius: 3px;
+}
+
+footer span ~ p {
+  word-spacing: 10px;
 }
